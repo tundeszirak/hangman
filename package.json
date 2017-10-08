@@ -1,0 +1,27 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "enzyme": "^2.9.1",
+    "enzyme-to-json": "^2.0.0",
+    "eslint": "^4.6.0",
+    "eslint-plugin-react": "^7.3.0",
+    "react-addons-test-utils": "^15.6.0",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.14",
+    "react-test-renderer": "^15.6.1"
+  },
+  "dependencies": {
+    "n": "^2.1.8",
+    "react": "^15.6.1",
+    "styled-components": "^2.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

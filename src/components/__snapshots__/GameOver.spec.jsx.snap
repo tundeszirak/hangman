@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Game Over should render the component 1`] = `
+<styled.p
+  text="Snap!"
+>
+  Snap!
+</styled.p>
+`;

@@ -1,0 +1,23 @@
+body,
+html,
+#root,
+.App {
+  background: #f9f9f9;
+  width: 100%;
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Neucha', sans-serif;
+  padding: 25px;
+}
+
+.App > div {
+  max-width: 900px;
+  margin: auto;
+}
+
+.App:focus {
+  outline: none;
+}
