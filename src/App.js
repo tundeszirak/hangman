@@ -83,7 +83,7 @@ class App extends Component {
 
   handleClick = e => {
     const letter = e.target.textContent.toLowerCase();
-    return this.checkLetter(letter);
+    return letter.length > 1 ? null : this.checkLetter(letter);
   };
 
   handleKeyUp = e => {
@@ -136,7 +136,7 @@ class App extends Component {
         currentDiagram: this.state.currentDiagram + 1,
       });
     }
-    return this.state.currentDiagram === 5 ? this.gameOver('lose') : null;
+    return this.state.currentDiagram === 6 ? this.gameOver('lose') : null;
   };
 
   isWin() {

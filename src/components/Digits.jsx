@@ -8,7 +8,8 @@ const Block = styled.ul`
   margin: 5px 0;
   li {
     cursor: pointer;
-    margin-right: 12px;
+    margin-right: 11px;
+    padding: 1px;
     text-transform: uppercase;
     font-size: 22px;
     display: inline-block;
