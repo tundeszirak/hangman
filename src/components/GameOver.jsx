@@ -1,6 +1,6 @@
 import React from 'react';
 import winImage from '../img/win.png';
-import loseImage from '../img/6.png';
+import loseImage from '../img/7.png';
 import styled from 'styled-components';
 
 const Text = styled.p`
